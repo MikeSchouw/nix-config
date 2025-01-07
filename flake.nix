@@ -59,10 +59,13 @@
               "notion"
               "stats"
               "hiddenbar"
+              "logi-options+"
+              "whatsapp"
+              "yubico-authenticator"
             ];
             masApps = {
-              "Yubico" = 1497506650;
-              "WhatsApp" = 310633997;
+              # "Yubico" = 1497506650;
+              # "WhatsApp" = 310633997;
             };
             onActivation.cleanup = "zap";
             onActivation.autoUpdate = true;
