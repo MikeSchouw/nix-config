@@ -37,10 +37,13 @@
 
           homebrew = {
             enable = true;
+            taps = [
+              "hashicorp/tap"
+            ];
             brews = [
               "mas"
               "go"
-              "terraform"
+              "hashicorp/tap/terraform"
               "gh"
               "k9s"
               "zsh-syntax-highlighting"
