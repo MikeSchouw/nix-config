@@ -48,6 +48,8 @@
               "k9s"
               "zsh-syntax-highlighting"
               "zsh-autosuggestions"
+              "npm"
+              "nvm"
             ];
             casks = [
               "ghostty"
