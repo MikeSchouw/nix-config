@@ -54,6 +54,7 @@
               "awscli"
               "act"
               "common-fate/granted/granted"
+              "ansible"
             ];
             casks = [
               "ghostty"
@@ -71,7 +72,6 @@
             ];
             masApps = {
               # "Yubico" = 1497506650;
-              # "WhatsApp" = 310633997;
             };
             onActivation.cleanup = "zap";
             onActivation.autoUpdate = true;
