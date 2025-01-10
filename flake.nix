@@ -39,6 +39,7 @@
             enable = true;
             taps = [
               "hashicorp/tap"
+              "common-fate/granted"
             ];
             brews = [
               "mas"
@@ -50,6 +51,9 @@
               "zsh-autosuggestions"
               "npm"
               "nvm"
+              "awscli"
+              "act"
+              "common-fate/granted/granted"
             ];
             casks = [
               "ghostty"
