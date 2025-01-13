@@ -69,6 +69,7 @@
               "logi-options+"
               "whatsapp"
               "yubico-authenticator"
+              "raycast"
             ];
             masApps = {
               # "Yubico" = 1497506650;
@@ -86,6 +87,7 @@
               "/System/Applications/Calendar.app"
               "/System/Applications/Notes.app"
               "/Applications/Firefox.app"
+              "/Applications/Google Chrome.app"
               "/Applications/Nix Apps/Visual Studio Code.app"
               "/Applications/Notion.app"
               "/Applications/Yubico Authenticator.app"
