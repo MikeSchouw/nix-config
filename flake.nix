@@ -33,7 +33,7 @@
             #pkgs.docker
           ];
 
-          fonts.packages = [ pkgs.nerd-fonts.fira-code ];
+          # fonts.packages = [ pkgs.nerd-fonts.fira-code ];
 
           homebrew = {
             enable = true;
@@ -42,7 +42,7 @@
               "common-fate/granted"
             ];
             brews = [
-              "mas"
+              # "mas"
               "go"
               "hashicorp/tap/terraform"
               "gh"
@@ -55,6 +55,8 @@
               "act"
               "common-fate/granted/granted"
               "ansible"
+              "kubectl"
+              "prettier"
             ];
             casks = [
               "ghostty"
@@ -70,6 +72,7 @@
               "whatsapp"
               "yubico-authenticator"
               "raycast"
+              "font-fira-code"
             ];
             masApps = {
               # "Yubico" = 1497506650;
