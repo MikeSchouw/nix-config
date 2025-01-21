@@ -73,6 +73,7 @@
               "yubico-authenticator"
               "raycast"
               "font-fira-code"
+              "balenaetcher"
             ];
             masApps = {
               # "Yubico" = 1497506650;
