@@ -74,6 +74,7 @@
               "raycast"
               "font-fira-code"
               "balenaetcher"
+              "rectangle"
             ];
             masApps = {
               # "Yubico" = 1497506650;
