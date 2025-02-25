@@ -57,6 +57,7 @@
               "ansible"
               "kubectl"
               "prettier"
+              "lazygit"
             ];
             casks = [
               "ghostty"
