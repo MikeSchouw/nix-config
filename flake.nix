@@ -76,6 +76,7 @@
               "font-fira-code"
               "balenaetcher"
               "rectangle"
+              "zen-browser"
             ];
             masApps = {
               # "Yubico" = 1497506650;
