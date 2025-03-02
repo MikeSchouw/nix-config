@@ -94,6 +94,7 @@
               "/System/Applications/Calendar.app"
               "/System/Applications/Notes.app"
               "/Applications/Firefox.app"
+              "/Applications/Zen.app"
               "/Applications/Google Chrome.app"
               "/Applications/Nix Apps/Visual Studio Code.app"
               "/Applications/Notion.app"
