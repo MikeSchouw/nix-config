@@ -58,6 +58,8 @@
               "kubectl"
               "prettier"
               "lazygit"
+              "tailwindcss"
+              "wget"
             ];
             casks = [
               "ghostty"
