@@ -98,7 +98,7 @@
               # "/Applications/Firefox.app"
               "/Applications/Zen.app"
               "/Applications/Google Chrome.app"
-              "/Applications/Nix Apps/Visual Studio Code.app"
+              "/Applications/Visual Studio Code.app"
               "/Applications/Notion.app"
               "/Applications/Yubico Authenticator.app"
               "/Applications/Ghostty.app"
