@@ -60,6 +60,7 @@
               "lazygit"
               "tailwindcss"
               "wget"
+              "stripe"
             ];
             casks = [
               "ghostty"
@@ -95,7 +96,6 @@
             dock.persistent-apps = [
               "/System/Applications/Calendar.app"
               "/System/Applications/Notes.app"
-              # "/Applications/Firefox.app"
               "/Applications/Zen.app"
               "/Applications/Google Chrome.app"
               "/Applications/Visual Studio Code.app"
