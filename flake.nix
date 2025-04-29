@@ -61,6 +61,9 @@
               "tailwindcss"
               "wget"
               "stripe"
+              "pyenv"
+              "pyenv-virtualenv"
+              "aws-nuke"
             ];
             casks = [
               "ghostty"
@@ -80,6 +83,7 @@
               "balenaetcher"
               "rectangle"
               "zen-browser"
+              "orbstack"
             ];
             masApps = {
               # "Yubico" = 1497506650;
