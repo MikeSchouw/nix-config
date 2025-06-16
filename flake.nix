@@ -113,7 +113,6 @@
             loginwindow.GuestEnabled = false;
             NSGlobalDomain.AppleICUForce24HourTime = true;
             NSGlobalDomain.AppleInterfaceStyle = "Dark";
-            # primaryUser = "mikeschouw";
           };
 
           # Necessary for using flakes on this system.
@@ -132,6 +131,8 @@
           # $ darwin-rebuild changelog
           system.stateVersion = 5;
 
+          system.primaryUser = "mikeschouw";
+
           # The platform the configuration will be used on.
           nixpkgs.hostPlatform = "aarch64-darwin";
         };
@@ -139,6 +140,7 @@
     {
       # Build darwin flake using:
       # $ darwin-rebuild build --flake .#simple
+      system.primaryUser = "mikeschouw";
       darwinConfigurations."Mikes-MacBook-Pro" = nix-darwin.lib.darwinSystem {
         modules = [
           configuration
