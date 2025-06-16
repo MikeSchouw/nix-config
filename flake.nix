@@ -2,7 +2,7 @@
   description = "Mike's nix-darwin system flake";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
+    nixpkgs.url = "github:NixOS/nixpkgs";
     nix-darwin.url = "github:LnL7/nix-darwin";
     nix-darwin.inputs.nixpkgs.follows = "nixpkgs";
     nix-homebrew.url = "github:zhaofengli-wip/nix-homebrew";
@@ -113,7 +113,7 @@
             loginwindow.GuestEnabled = false;
             NSGlobalDomain.AppleICUForce24HourTime = true;
             NSGlobalDomain.AppleInterfaceStyle = "Dark";
-            # system.primaryUser = "mikeschouw";
+            # primaryUser = "mikeschouw";
           };
 
           # Necessary for using flakes on this system.
