@@ -113,6 +113,7 @@
             loginwindow.GuestEnabled = false;
             NSGlobalDomain.AppleICUForce24HourTime = true;
             NSGlobalDomain.AppleInterfaceStyle = "Dark";
+            # system.primaryUser = "mikeschouw";
           };
 
           # Necessary for using flakes on this system.
