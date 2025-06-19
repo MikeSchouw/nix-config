@@ -84,6 +84,7 @@
               "rectangle"
               "zen-browser"
               "orbstack"
+              "amazon-q"
             ];
             masApps = {
               # "Yubico" = 1497506650;
