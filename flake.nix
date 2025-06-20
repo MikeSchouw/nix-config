@@ -64,6 +64,8 @@
               "pyenv"
               "pyenv-virtualenv"
               "aws-nuke"
+              "uv"
+              "graphviz"
             ];
             casks = [
               "ghostty"
@@ -82,9 +84,7 @@
               "font-fira-code"
               "balenaetcher"
               "rectangle"
-              "zen-browser"
               "orbstack"
-              "amazon-q"
             ];
             masApps = {
               # "Yubico" = 1497506650;
