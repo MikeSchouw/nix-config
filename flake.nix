@@ -65,7 +65,6 @@
               "pyenv-virtualenv"
               "aws-nuke"
               "uv"
-              "graphviz"
             ];
             casks = [
               "ghostty"
