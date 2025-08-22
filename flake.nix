@@ -84,6 +84,7 @@
               "balenaetcher"
               "rectangle"
               "orbstack"
+              "vlc"
             ];
             masApps = {
               # "Yubico" = 1497506650;
