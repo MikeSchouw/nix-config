@@ -65,6 +65,7 @@
               "pyenv-virtualenv"
               "aws-nuke"
               "uv"
+              "thefuck"
             ];
             casks = [
               "ghostty"
