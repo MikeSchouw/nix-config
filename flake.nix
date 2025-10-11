@@ -66,6 +66,8 @@
               "aws-nuke"
               "uv"
               "thefuck"
+              "ffmpeg"
+              "yt-dlp"
             ];
             casks = [
               "ghostty"
