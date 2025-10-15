@@ -97,20 +97,6 @@
 
           system.defaults = {
             dock.autohide = true;
-            # dock.largesize = 60
-            # dock.magnification = true; # doesnt seem to work
-            dock.persistent-apps = [
-              "/System/Applications/Calendar.app"
-              "/System/Applications/Notes.app"
-              "/Applications/Zen.app"
-              "/Applications/Google Chrome.app"
-              "/Applications/Visual Studio Code.app"
-              "/Applications/Notion.app"
-              "/Applications/Yubico Authenticator.app"
-              "/Applications/Ghostty.app"
-              "/Applications/Spotify.app"
-              "/System/Applications/System Settings.app"
-            ];
             finder.FXPreferredViewStyle = "clmv";
             loginwindow.GuestEnabled = false;
             NSGlobalDomain.AppleICUForce24HourTime = true;
@@ -148,6 +134,20 @@
           configuration
           mac-app-util.darwinModules.default
           home-manager.darwinModules.home-manager
+          {
+            system.defaults.dock.persistent-apps = [
+              "/System/Applications/Calendar.app"
+              "/System/Applications/Notes.app"
+              "/Applications/Zen.app"
+              "/Applications/Google Chrome.app"
+              "/Applications/Nix Apps/Visual Studio Code.app"
+              "/Applications/Notion.app"
+              "/Applications/Yubico Authenticator.app"
+              "/Applications/Ghostty.app"
+              "/Applications/Spotify.app"
+              "/System/Applications/System Settings.app"
+            ];
+          }
           (
             {
               pkgs,
