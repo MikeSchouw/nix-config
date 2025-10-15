@@ -192,7 +192,6 @@
               "/Applications/Spotify.app"
               "/System/Applications/System Settings.app"
             ];
-            system.defaults.dock.autohide = false;
           }
           (
             {
