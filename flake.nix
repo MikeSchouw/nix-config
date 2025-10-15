@@ -30,10 +30,7 @@
             pkgs.vscode
             pkgs.nixfmt-rfc-style
             pkgs.oh-my-zsh
-            #pkgs.docker
           ];
-
-          # fonts.packages = [ pkgs.nerd-fonts.fira-code ];
 
           homebrew = {
             enable = true;
@@ -144,7 +141,7 @@
     in
     {
       # Build darwin flake using:
-      # $ darwin-rebuild build --flake .#simple
+      # $ darwin-rebuild build --flake .#Mikes-MacBook-Pro
       system.primaryUser = "mikeschouw";
       darwinConfigurations."Mikes-MacBook-Pro" = nix-darwin.lib.darwinSystem {
         modules = [
@@ -176,6 +173,8 @@
           }
         ];
       };
+      # Build darwin flake using:
+      # $ darwin-rebuild build --flake .#Mikes-MacBook-Air
       darwinConfigurations."Mikes-MacBook-Air" = nix-darwin.lib.darwinSystem {
         modules = [
           configuration
