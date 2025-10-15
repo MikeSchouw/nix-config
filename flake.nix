@@ -97,8 +97,6 @@
 
           system.defaults = {
             dock.autohide = true;
-            dock.tilesize = 70; # base size (must be smaller than largesize for magnification)
-            dock.largesize = 90; # magnified size
             dock.magnification = true; # enable magnification
             dock.show-recents = false;
             finder.FXPreferredViewStyle = "clmv";
@@ -139,6 +137,8 @@
           mac-app-util.darwinModules.default
           home-manager.darwinModules.home-manager
           {
+            system.defaults.dock.tilesize = 70; # base size (must be smaller than largesize for magnification)
+            system.defaults.dock.largesize = 90; # magnified size
             system.defaults.dock.persistent-apps = [
               "/System/Applications/Calendar.app"
               "/System/Applications/Notes.app"
@@ -185,6 +185,8 @@
           mac-app-util.darwinModules.default
           home-manager.darwinModules.home-manager
           {
+            system.defaults.dock.tilesize = 60; # base size (must be smaller than largesize for magnification)
+            system.defaults.dock.largesize = 80; # magnified size
             system.defaults.dock.persistent-apps = [
               "/System/Applications/Calendar.app"
               "/System/Applications/Notes.app"
