@@ -175,5 +175,35 @@
           }
         ];
       };
+      darwinConfigurations."Mikes-MacBook-Air" = nix-darwin.lib.darwinSystem {
+        modules = [
+          configuration
+          mac-app-util.darwinModules.default
+          home-manager.darwinModules.home-manager
+          (
+            {
+              pkgs,
+              config,
+              inputs,
+              ...
+            }:
+            {
+              # To enable it for all users:
+              home-manager.sharedModules = [
+                mac-app-util.homeManagerModules.default
+              ];
+            }
+          )
+          nix-homebrew.darwinModules.nix-homebrew
+          {
+            nix-homebrew = {
+              enable = true;
+              # Apple Silicon Only
+              enableRosetta = true;
+              user = "mikeschouw";
+            };
+          }
+        ];
+      };
     };
 }
