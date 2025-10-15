@@ -88,6 +88,7 @@
               "rectangle"
               "orbstack"
               "vlc"
+              "raycast"
             ];
             masApps = {
               # "Yubico" = 1497506650;
