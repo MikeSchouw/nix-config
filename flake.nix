@@ -97,6 +97,9 @@
 
           system.defaults = {
             dock.autohide = true;
+            dock.tilesize = 70; # base size (must be smaller than largesize for magnification)
+            dock.largesize = 90; # magnified size
+            dock.magnification = true; # enable magnification
             finder.FXPreferredViewStyle = "clmv";
             loginwindow.GuestEnabled = false;
             NSGlobalDomain.AppleICUForce24HourTime = true;
