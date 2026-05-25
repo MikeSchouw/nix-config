@@ -84,7 +84,8 @@
               "balenaetcher"
               "rectangle"
               "orbstack"
-              "vlc"            ];
+              "vlc"
+            ];
             masApps = {
               # "Yubico" = 1497506650;
             };
@@ -142,7 +143,6 @@
               "/System/Applications/Notes.app"
               "/Applications/Zen.app"
               "/Applications/Nix Apps/Visual Studio Code.app"
-              "/Applications/Cursor.app"
               "/Applications/Notion.app"
               "/Applications/Yubico Authenticator.app"
               "/Applications/Ghostty.app"
