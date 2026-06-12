@@ -27,8 +27,7 @@
           environment.systemPackages = [
             pkgs.vim
             pkgs.mkalias
-            pkgs.vscode
-            pkgs.nixfmt-rfc-style
+            pkgs.nixfmt
             pkgs.oh-my-zsh
           ];
 
@@ -68,6 +67,7 @@
             ];
             casks = [
               "ghostty"
+              "visual-studio-code"
               "firefox"
               "spotify"
               "iina"
@@ -142,7 +142,7 @@
               "/System/Applications/Calendar.app"
               "/System/Applications/Notes.app"
               "/Applications/Zen.app"
-              "/Applications/Nix Apps/Visual Studio Code.app"
+              "/Applications/Visual Studio Code.app"
               "/Applications/Notion.app"
               "/Applications/Yubico Authenticator.app"
               "/Applications/Ghostty.app"
@@ -189,7 +189,7 @@
               "/System/Applications/Calendar.app"
               "/System/Applications/Notes.app"
               "/Applications/Zen.app"
-              "/Applications/Nix Apps/Visual Studio Code.app"
+              "/Applications/Visual Studio Code.app"
               "/Applications/Notion.app"
               "/Applications/Yubico Authenticator.app"
               "/Applications/Ghostty.app"
