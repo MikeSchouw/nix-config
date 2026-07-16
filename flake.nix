@@ -64,6 +64,7 @@
               "thefuck"
               "ffmpeg"
               "yt-dlp"
+              "fzf"
             ];
             casks = [
               "ghostty"
