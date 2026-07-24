@@ -78,7 +78,6 @@
               "stats"
               "hiddenbar"
               "logi-options+"
-              "whatsapp"
               "yubico-authenticator"
               "raycast"
               "font-fira-code"
