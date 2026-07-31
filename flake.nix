@@ -65,11 +65,11 @@
               "ffmpeg"
               "yt-dlp"
               "fzf"
+              "zoxide"
             ];
             casks = [
               "ghostty"
               "visual-studio-code"
-              "firefox"
               "spotify"
               "iina"
               "the-unarchiver"
