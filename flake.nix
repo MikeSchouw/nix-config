@@ -86,6 +86,7 @@
               "orbstack"
               "vlc"
               "karabiner-elements"
+              "codex"
             ];
             masApps = {
               # "Yubico" = 1497506650;
